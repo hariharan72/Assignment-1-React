@@ -1,0 +1,73 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-image: linear-gradient(to bottom,#54416a,#c09dcb);
+  width: 90%;
+  height: 100vh;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+  justify-content: space-between;
+}
+
+#player-wrapper{
+  width: 40%;
+  height: 100%; 
+  /* background-color: brown; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.video-item{
+  width: 80%;
+  border: 1px solid black;
+  margin: 10px auto;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: linear-gradient(to top,#4a5e4a,#e1a3be);
+  cursor: pointer;
+  /* transition: 1.9ms ease-in; */
+}
+
+/* .video-item:hover{
+
+  transform: scale(0.9);
+  box-shadow: 0 0 8px rgb(222, 8, 8);
+} */
+
+.video-item img{
+width: 100%;
+}
+
+.video-item h2,h3{
+  padding: 8px;
+  margin-top: 0;
+}
+
+#mainplayer{
+  background-color: aqua;
+  width: 55%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 90px;
+}
+
+#channelname{
+display: flex;
+/* flex-wrap: wrap; */
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
